@@ -23,7 +23,7 @@ function Two(props) {
         </div>
         <div className="two__image-container">
           <img src={require("../../images/my-image.jpg")} alt="Main-Image" />
-          <span>Availabel for Work</span>
+          <span>Available for Work</span>
         </div>
       </div>
     </section>

@@ -25,9 +25,9 @@
 .four__card__img-container img {
   min-width: 250px;
   width: 100%;
-  height: 190px;
+  height: 200px;
   object-fit: cover;
-  transform: scale(1);
+  transform: scale(1.1);
   transition: all 0.5s ease;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .four__card:hover img {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 
 .four__card__main-info {

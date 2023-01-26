@@ -118,6 +118,10 @@
   color: black;
 }
 
+.one__social-media > div > a {
+  color: unset;
+}
+
 @media screen and (max-width: 700px) {
   .one__navigation {
     display: none;
