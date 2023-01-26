@@ -1,0 +1,29 @@
+.five {
+  margin-top: 15px;
+  padding: 20px 0;
+  border-top: 2px solid rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.five > span {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  cursor: default;
+  white-space: nowrap;
+}
+
+.five > div > span {
+  margin: 0 10px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  cursor: default;
+  white-space: nowrap;
+}
+
+.five > span:hover,
+.five > div > span:hover {
+  text-decoration: underline;
+}

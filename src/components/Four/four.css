@@ -1,0 +1,155 @@
+.four {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+}
+
+.four__card {
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.four__card__img-container {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.four__card__img-container img {
+  min-width: 250px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+}
+
+.four__card__img-container:active img {
+  opacity: 0.5;
+  scale: 0.5;
+}
+
+.four__card:hover img {
+  transform: scale(1.5);
+}
+
+.four__card__main-info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.four__card__main-info > a {
+  color: unset;
+  text-decoration: none;
+}
+
+.four__card__live-link-cont {
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.four__card__live-link-cont:hover {
+  background-color: white;
+  color: black;
+}
+
+.four__card__live-link-cont > div {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  margin-left: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.four__card__live-link-cont > div > i {
+  position: absolute;
+  top: 4.5px;
+  left: 4.5px;
+  transition: all 0.2s ease;
+}
+
+.four__card__live-link-cont > div > i:nth-child(2) {
+  transform: translateX(-20.5px);
+}
+
+.four__card__live-link-cont:hover > div {
+  background-color: black;
+  color: white;
+}
+
+.four__card__live-link-cont:hover > div > i:nth-child(1) {
+  transform: translateX(23px);
+}
+
+.four__card__live-link-cont:hover > div > i:nth-child(2) {
+  transform: translateX(0);
+}
+
+.four__card__add-info {
+  margin-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.8);
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.four__card__add-info > p {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  cursor: default;
+}
+
+.four__card_techstack {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.four__card_techstack > span {
+  padding: 5px 10px;
+  margin: 5px;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.four__swiper-nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+.four__swiper-nav-container > div {
+  padding: 5px 10px;
+  width: 100px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  margin: 0 15px;
+  min-width: 90px;
+}
+
+.four__swiper-nav-container > div:hover {
+  background-color: white;
+  color: black;
+}
