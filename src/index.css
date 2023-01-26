@@ -32,5 +32,6 @@ body {
 @media screen and (max-width: 600px) {
   .App {
     padding: 0 10px;
+    padding-top: 15px;
   }
 }

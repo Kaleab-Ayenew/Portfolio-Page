@@ -1,6 +1,8 @@
 import React from "react";
 import "./four.css";
 
+import data from "./siteData";
+
 //Swiper Imports
 import { SwiperSlide, Swiper } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
@@ -12,17 +14,18 @@ import "swiper/css/navigation";
 import "./slider-style.css";
 
 function FourCard(props) {
+  console.log(props);
+  const techStack = props.stack.map((item, i) => {
+    return <span key={i}>{item}</span>;
+  });
   return (
     <div className="four__card">
       <div className="four__card__img-container">
-        <img
-          src="https://miro.medium.com/v2/resize:fit:1400/0*080KJgq133UZdlHE"
-          alt="portfolio-img"
-        />
+        <img src={props.img} alt="portfolio-img" />
       </div>
       <div className="four__card__main-info">
-        <span>Timeshop</span>
-        <a href="#">
+        <span>{props.name}</span>
+        <a href={props.link}>
           <div className="four__card__live-link-cont">
             View Live
             <div>
@@ -33,16 +36,8 @@ function FourCard(props) {
         </a>
       </div>
       <div className="four__card__add-info">
-        <p>
-          This is a website design for a wrist watch store website called
-          Timeshop.
-        </p>
-        <div className="four__card_techstack">
-          <span>React</span>
-          <span>Lottie</span>
-          <span>Swiper</span>
-          <span>Bootstrap</span>
-        </div>
+        <p>{props.description}</p>
+        <div className="four__card_techstack">{techStack}</div>
       </div>
     </div>
   );
@@ -50,6 +45,15 @@ function FourCard(props) {
 
 function Four(props) {
   let [slides, setSlides] = React.useState(3);
+  console.log(data);
+  let renderedData = data.map((item, i) => {
+    console.log(item);
+    return (
+      <SwiperSlide key={i}>
+        <FourCard {...item} />
+      </SwiperSlide>
+    );
+  });
   window.onresize = () => {
     if (window.innerWidth > 1000) {
       setSlides(3);
@@ -85,21 +89,7 @@ function Four(props) {
         className="mySwiper"
         autoplay={true}
       >
-        <SwiperSlide>
-          <FourCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <FourCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <FourCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <FourCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <FourCard />
-        </SwiperSlide>
+        {renderedData}
       </Swiper>
       <div className="four__swiper-nav-container">
         <div className="prev-btn">

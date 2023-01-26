@@ -25,9 +25,9 @@
 .four__card__img-container img {
   min-width: 250px;
   width: 100%;
-  height: 200px;
+  height: 190px;
   object-fit: cover;
-  transform: scale(1.2);
+  transform: scale(1);
   transition: all 0.5s ease;
 }
 
@@ -129,6 +129,7 @@
   margin: 5px;
   color: rgba(255, 255, 255, 0.7);
   border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
 }
 
 .four__swiper-nav-container {
@@ -152,4 +153,18 @@
 .four__swiper-nav-container > div:hover {
   background-color: white;
   color: black;
+}
+
+@media screen and (max-width: 700px) {
+  .four__swiper-nav-container > div {
+    cursor: default;
+  }
+  .four__swiper-nav-container > div:hover {
+    background: none;
+    color: white;
+  }
+  .four__swiper-nav-container > div:active {
+    background-color: white;
+    color: black;
+  }
 }

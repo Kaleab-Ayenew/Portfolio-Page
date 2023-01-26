@@ -5,24 +5,25 @@ function Two(props) {
     <section className="two">
       <div className="two__container">
         <div className="two__name-container">
-          <h1>Nicolas Simons —</h1>
+          <h1>Kaleab Ayenew —</h1>
           <div className="two__name-container__bottom">
             <div>
-              <span>Contact Me</span>
+              <span>Hire Me!</span>
               <div>
                 <i class="fa-solid fa-arrow-right"></i>
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
+              <a
+                className="hire-link"
+                href="mailto:kalishayish16@gmail.com?subject=Work"
+              ></a>
             </div>
-            <span>Art Director — MetroLab</span>
+            <span>Freelance Web Developer</span>
           </div>
         </div>
         <div className="two__image-container">
-          <img
-            src="https://thumbs.dreamstime.com/b/ceo-businessman-handsome-ceo-businessman-portrait-black-white-successful-ceo-businessman-jacket-ceo-ceo-businessman-121516068.jpg"
-            alt="Main-Image"
-          />
-          <span>Fullstack Developer</span>
+          <img src={require("../../images/my-image.jpg")} alt="Main-Image" />
+          <span>Availabel for Work</span>
         </div>
       </div>
     </section>

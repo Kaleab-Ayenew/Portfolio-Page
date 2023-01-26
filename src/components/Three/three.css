@@ -19,8 +19,14 @@
 }
 
 .three__text {
-  font-size: 20px;
+  font-size: 25px;
   width: 40%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.three__text > span {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 1);
 }
 
 @media screen and (max-width: 750px) {

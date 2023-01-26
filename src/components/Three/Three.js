@@ -4,13 +4,17 @@ function Three(props) {
   return (
     <section className="three">
       <div className="three__span-list">
-        <span>ART DIRECTOR</span>
-        <span>12 DECEMBER 2022</span>
-        <span>PORTFOLIO</span>
+        <span>Web Stack</span>
+        <span>React.js</span>
+        <span>Redux</span>
+        <span>Django</span>
+        <span>Python</span>
+        <span>Django REST</span>
       </div>
       <div className="three__text">
-        MetroLab / 2023© creates interesting website dashboard design for
-        company artists and photographers.
+        I am <span>Kaleab Ayenew</span>, a Fullstack web developer with more
+        than two years of experiance. You can contact me at{" "}
+        <span>kalishayish16@gmail.com</span>. Love You!
       </div>
     </section>
   );
