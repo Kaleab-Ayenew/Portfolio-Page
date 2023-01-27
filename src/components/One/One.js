@@ -25,8 +25,8 @@ function One(props) {
           </a>
         </div>
         <div>
-          <a href="https://twitter.com/">
-            <i class="fa-brands fa-twitter"></i>
+          <a href="mailto:kalishayish16@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
           </a>
         </div>
         <div>

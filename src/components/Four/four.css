@@ -130,6 +130,12 @@
   color: rgba(255, 255, 255, 0.7);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 0.9rem;
+  cursor: default;
+}
+
+.four__card_techstack > span:hover {
+  color: white;
+  border: 1px solid white;
 }
 
 .four__swiper-nav-container {

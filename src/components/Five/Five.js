@@ -4,11 +4,7 @@ function Five(props) {
   return (
     <footer className="five">
       <span>Kaleab Ayenew</span>
-      <span>All Rights Reserved</span>
-      <div>
-        <span>Contact Me</span>
-        <span>Phone Me</span>
-      </div>
+      <span>ALL RIGHTS RESERVED ©2023</span>
     </footer>
   );
 }

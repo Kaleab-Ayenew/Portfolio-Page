@@ -170,9 +170,11 @@
     width: 100%;
     background-color: white;
     color: var(--gray);
+    justify-content: center;
   }
   .two__name-container__bottom > div > div {
     background-color: var(--gray);
+    display: none;
   }
   .two__name-container__bottom > div > span {
     font-size: 1.2rem;
