@@ -18,7 +18,7 @@ function Two(props) {
                 href="mailto:kalishayish16@gmail.com?subject=Work"
               ></a>
             </div>
-            <span>Freelance Web Developer</span>
+            <span>Fullstack Web Developer</span>
           </div>
         </div>
         <div className="two__image-container">
