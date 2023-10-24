@@ -10,14 +10,14 @@ const data = [
     name: "PC Market Place",
     description: `A market place where you can sell laptop computers and other electronics.`,
     img: require("../../images/sites/pc-shop-front.png"),
-    link: "https://suqlink.com",
+    link: "https://pc-shop.blackstormtech.com/",
     stack: ["React", "NextJS", "Django", "PostgreSQL"],
   },
   {
     name: "PC Market Place Dashboard",
     description: `Market place management dashboard, and CMS.`,
     img: require("../../images/sites/pc-dash.png"),
-    link: "https://suqlink.com",
+    link: "https://pc-dash.blackstormtech.com/",
     stack: ["React", "NextJS", "Chapa API", "Django", "PostgreSQL"],
   },
   {
