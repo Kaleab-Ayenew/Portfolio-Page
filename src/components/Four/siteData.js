@@ -1,5 +1,26 @@
 const data = [
   {
+    name: "Suqlink - Digital Product Market Place",
+    description: `A Digital Product market place where you can sell: EBooks, Music, Video, UI/UX templates, PSD files, Ai templates etc...`,
+    img: require("../../images/sites/suqlink-dashboard-copy.png"),
+    link: "https://suqlink.com",
+    stack: ["React", "NextJS", "Chapa Payment API", "Django", "PostgreSQL"],
+  },
+  {
+    name: "PC Market Place",
+    description: `A market place where you can sell laptop computers and other electronics.`,
+    img: require("../../images/sites/pc-shop-front.png"),
+    link: "https://suqlink.com",
+    stack: ["React", "NextJS", "Django", "PostgreSQL"],
+  },
+  {
+    name: "PC Market Place Dashboard",
+    description: `Market place management dashboard, and CMS.`,
+    img: require("../../images/sites/pc-dash.png"),
+    link: "https://suqlink.com",
+    stack: ["React", "NextJS", "Chapa API", "Django", "PostgreSQL"],
+  },
+  {
     name: "Timeshop",
     description: `Timeshop is a modern landing page design for an online wrist watch store.`,
     img: require("../../images/sites/1.png"),
